@@ -13,7 +13,7 @@ const displayMeals = (meals) => {
         createDiv.innerHTML = `
         <div onclick="cardClicked(${meal.idMeal})" class="card-body items-center text-center  border rounded m-6">
                   <img src="${meal.strMealThumb}" alt="Shoes" class="rounded-xl" />
-                     <h2 class="card-title">${meal.strIngredient1}</h2>
+                     <h2 class="card-title">${meal.strIngredient}</h2>
                   <p>${meal.strInstructions.slice(0, 250)}</p>
                 </div>
         `
